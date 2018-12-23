@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+Author: YK
+Title: test
+Description: test
+Date: 2018/12/21
+Time: 11:49
+-->
+<mapper namespace="cn.yk.fire.orm.cms.CmsTestMapper">
+
+    <select id="test" resultType="cn.yk.fire.model.cms.vo.TestVO">
+        select * from user limit 1
+    </select>
+</mapper>
+ 

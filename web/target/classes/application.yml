@@ -1,0 +1,14 @@
+server:
+  port: 8081
+#mysql配置
+spring:
+  datasource:
+    url: jdbc:mysql://39.108.132.170:3336/psychological?serverTimezone=UTC
+    username: root
+    password: fyk159753
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#mybatis配置
+mybatis:
+  type-aliases-package: cn.yk.fire.model.cms.vo
+  mapper-locations: classpath:mybatis/mapper/cms/*.xml
+  configLocation: classpath:mybatis/mybatis-config.xml
