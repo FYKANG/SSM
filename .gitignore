@@ -12,6 +12,19 @@
 
 target
 
+src/test
+cms/src/test
+cms/target
+core/src/test
+core/target
+model/src/test
+model/target
+orm/src/test
+orm/target
+web/src/test
+web/target
+
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -25,3 +38,17 @@ target
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# Package Files #
+*.jar
+# *.war
+*.ear
+*.idea
+*.log
+
+*.class
+*.classpath
+*.project
+*.settings/
+
+*.iml
